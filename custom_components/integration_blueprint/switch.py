@@ -17,7 +17,7 @@ if TYPE_CHECKING:
 
 ENTITY_DESCRIPTIONS = (
     SwitchEntityDescription(
-        key="integration_blueprint",
+        key="ha-jellyfish",
         name="Integration Switch",
         icon="mdi:format-quote-close",
     ),

@@ -17,7 +17,7 @@ if TYPE_CHECKING:
 
 ENTITY_DESCRIPTIONS = (
     SensorEntityDescription(
-        key="integration_blueprint",
+        key="ha-jellyfish",
         name="Integration Sensor",
         icon="mdi:format-quote-close",
     ),

@@ -21,8 +21,8 @@ if TYPE_CHECKING:
 
 ENTITY_DESCRIPTIONS = (
     BinarySensorEntityDescription(
-        key="integration_blueprint",
-        name="Integration Blueprint Binary Sensor",
+        key="ha-jellyfish",
+        name="Jellyfish Integration Binary Sensor",
         device_class=BinarySensorDeviceClass.CONNECTIVITY,
     ),
 )
@@ -44,7 +44,7 @@ async def async_setup_entry(
 
 
 class IntegrationBlueprintBinarySensor(IntegrationBlueprintEntity, BinarySensorEntity):
-    """integration_blueprint binary_sensor class."""
+    """ha-jellyfishprint binary_sensor class."""
 
     def __init__(
         self,
